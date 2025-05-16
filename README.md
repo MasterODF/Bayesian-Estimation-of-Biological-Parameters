@@ -47,9 +47,9 @@ Then, you will need a file "were_there_mutants.txt" which includes a list of whi
 
 
 
-Then, you will need to launch "mutants_at_time_of_antibiotic.py". This code will receive the "something" part of the .txt files and the time where the change of medium was done. It will output another file called "cells_at_time_of_antibiotic.txt" with the following format:
+Then, you will need to launch "cells_at_time_of_change_of_medium.py". This code will receive the "something" part of the .txt files and the time when the change of medium was done. It will output another file called "cells_at_time_of_change_of_medium.txt" with the following format:
 
-True/False(depending on wether there were mutants, this is obtained from the "were_there_mutants.txt");total_cells_at_time_of_antibiotic
+True/False(depending on whether there were mutants, this is obtained from the "were_there_mutants.txt");total_cells_at_time_of_antibiotic
 
 
 
